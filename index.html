@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<title>FCC Marietta</title>
-	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <style type="text/css">
 A:link.purple {color: #CA95E6;}
 A:visited.purple {color: #CA95E6;}
@@ -24,7 +24,7 @@ A:visited.purple {color: #CA95E6;}
 			
 		</div>
 	</div>
-	<div class="navbar navbar-fixed-top">
+	<div class="navbar">
       <div class="navbar-inner">
         <div class="container-fluid">
           <div class="nav">
@@ -45,10 +45,36 @@ A:visited.purple {color: #CA95E6;}
     </div>	
     
 
-    
-    <div class="hero-unit">
-		<h1 class="pagination-centered">Big Pic</h1>
+	<div id="myCarousel" class="carousel slide">
+		<!-- Carousel items -->
+		<div class="carousel-inner">
+			<div class="active item">
+				<center>
+				<img src="images/pic1.jpg" width="960">
+				<div class="carousel-caption">
+					<h4>All together at church</h4>
+                      <p>Multi-congregational service</p>
+                </div>
+                </center>
+			</div>
+			<div class="item">
+				<center>
+				<img src="images/pic2.jpg" width="960">
+				</center>
+			</div>
+			<div class="item">
+				<center>
+				<img src="images/pic3.jpg" width="960">
+				</center>
+			</div>
+		</div>
+		<!-- Carousel nav -->
+		<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 	</div>
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
